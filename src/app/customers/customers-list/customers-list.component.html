@@ -1,0 +1,37 @@
+<table class="table table-striped">
+    <tr>
+        <th (click)="sort('firstName')">First Name</th>
+        <th (click)="sort('lastName')">Last Name</th>
+        <th (click)="sort('city')">City</th>
+        <th (click)="sort('customerSince')">Joined</th>
+        <th (click)="sort('ordersTotal')">Order Total</th>
+        <th>&nbsp;</th>
+    </tr>
+    <tr *ngFor="let cust of customers;trackBy:customerTrackBy;">
+        <td>
+            {{ cust.firstName | capitalize }}
+        </td>
+        <td>
+            {{ cust.lastName | capitalize }}
+        </td>
+        <td>{{ cust.city }}</td>
+        <td>{{ cust.customerSince | date }}</td>
+        <td>{{ cust.ordersTotal | currency:currencyCode:true }}
+        <td>
+            <a [routerLink]="['/customers', cust.id]">
+                View Orders
+            </a>
+        </td>
+    </tr>
+    <tr>
+        <td colspan="4">&nbsp;</td>
+        <td>
+            {{ ordersTotal | currency:currencyCode:true }}
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    <tr *ngIf="!customers || !customers.length">
+        <td colspan="6">No customers found</td>
+    </tr>
+</table>
+

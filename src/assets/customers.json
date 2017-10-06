@@ -1,0 +1,124 @@
+[
+      {
+            "id": 1,
+            "firstName": "ted",
+            "lastName": "James",
+            "city": " Phoenix ",
+            "customerSince": "2014-08-10T07:00:00.000Z",
+            "orders": [
+                  {"id": 1, "productName": "Baseball", "itemCost": 9.99},
+                  {"id": 2, "productName": "Bat", "itemCost": 19.99}
+            ]
+      },
+      {
+            "id": 2,
+            "firstName": "Michelle",
+            "lastName": "Thompson",
+            "city": "Los Angeles ",
+            "customerSince": "2016-04-13T07:00:00.000Z",
+            "orders": [
+                  {"id": 3, "productName": "Basketball", "itemCost": 7.99},
+                  {"id": 4, "productName": "Shoes", "itemCost": 199.99}
+            ]
+      },
+      {
+            "id": 3,
+            "firstName": "James",
+            "lastName": "Thomas",
+            "city": " Las Vegas ",
+            "customerSince": "2010-02-25T07:00:00.000Z",
+            "orders": [
+                  {"id": 5, "productName": "Frisbee", "itemCost": 2.99},
+                  {"id": 6, "productName": "Hat", "itemCost": 5.99}
+            ]
+      },
+      {
+            "id": 4,
+            "firstName": "Tina",
+            "lastName": "Adams",
+            "city": "Seattle",
+            "customerSince": "2014-09-23T07:00:00.000Z",
+            "orders": [
+                  {"id": 7, "productName": "Boomerang", "itemCost": 29.99},
+                  {"id": 8, "productName": "Helmet", "itemCost": 19.99},
+                  {"id": 9, "productName": "Kangaroo Saddle", "itemCost": 179.99}
+            ]
+      },
+      {
+            "id": 5,
+            "firstName": "Dan",
+            "lastName": "Jones",
+            "city": "New York",
+            "customerSince": "2014-11-07T07:00:00.000Z",
+            "orders": [
+                  {"id": 10, "productName": "Budgie Smugglers", "itemCost": 19.99},
+                  {"id": 11, "productName": "Swimming Cap", "itemCost": 5.49}
+            ]
+      },
+      {
+            "id": 6,
+            "firstName": "Anthony",
+            "lastName": "Jamison",
+            "city": "Dallas",
+            "customerSince": "2014-09-05T07:00:00.000Z",
+            "orders": [
+                  {"id": 12, "productName": "Bow", "itemCost": 399.99},
+                  {"id": 13, "productName": "Arrows", "itemCost": 69.99}
+            ]
+      },
+      {
+            "id": 7,
+            "firstName": "Heedy",
+            "lastName": "Wahlin",
+            "city": "Chandler",
+            "customerSince": "2014-09-05T07:00:00.000Z",
+            "orders": [
+                  {"id": 14, "productName": "Running Shoes", "itemCost": 199.99},
+                  {"id": 15, "productName": "Apple Watch", "itemCost": 299.99}
+            ]
+      },
+      {
+            "id": 8,
+            "firstName": "Danny",
+            "lastName": "Wahlin",
+            "city": "Chandler",
+            "customerSince": "2014-10-05T07:00:00.000Z",
+            "orders": [
+                  {"id": 16, "productName": "Tennis Racket", "itemCost": 129.99},
+                  {"id": 17, "productName": "Tennis Balls", "itemCost": 19.99}
+            ]
+      },
+      {
+            "id": 9,
+            "firstName": "Jeff",
+            "lastName": "Wahlin",
+            "city": "Chandler",
+            "customerSince": "2014-02-05T07:00:00.000Z",
+            "orders": [
+                  {"id": 18, "productName": "Nintendo Switch", "itemCost": 299.99},
+                  {"id": 19, "productName": "Zelda", "itemCost": 59.99}
+            ]
+      },
+      {
+            "id": 10,
+            "firstName": "John",
+            "lastName": "Papa",
+            "city": "Orlando",
+            "customerSince": "2014-05-05T07:00:00.000Z",
+            "orders": [
+                  {"id": 20, "productName": "Golf Clubs", "itemCost": 399.99},
+                  {"id": 21, "productName": "Golf Balls", "itemCost": 19.99}
+            ]
+      },
+      {
+            "id": 11,
+            "firstName": "Ward",
+            "lastName": "Bell",
+            "city": "San Francisco",
+            "customerSince": "2014-03-05T07:00:00.000Z",
+            "orders": [
+                  {"id": 22, "productName": "Monopoly Game", "itemCost": 29.99},
+                  {"id": 23, "productName": "Etch-A-Sketch", "itemCost": 19.99}
+            ]
+      }
+]

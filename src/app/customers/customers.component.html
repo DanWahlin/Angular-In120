@@ -1,0 +1,18 @@
+<h2>{{ title }}</h2>
+<br />
+<filter-textbox (changed)="filter($event)" [title]="'Filter by Name'"></filter-textbox>
+<br />
+<br />
+
+<app-customers-list [customers]="filteredCustomers" 
+                [ordersTotal]="customersOrdersTotal" 
+                (sorted)="sort($event)">
+</app-customers-list>
+<br />
+<app-pagination
+    [totalItems]="totalRecords" 
+    [pageSize]="pageSize" 
+    (pageChanged)="pageChanged($event)">
+</app-pagination>
+<br />
+Total customers: {{ totalRecords }}
