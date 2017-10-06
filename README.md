@@ -1,4 +1,4 @@
-# Angular 120-Minute JumpStart Video Course
+# Angular 120-Minute JumpStart Video Course Code
 
 This code is for the upcoming Angular 120-Minute JumpStart video course. It was created using the Angular CLI. 
 
